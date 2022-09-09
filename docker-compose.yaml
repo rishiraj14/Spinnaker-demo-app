@@ -1,8 +1,0 @@
-version: '3.8'
-services:
-  rishiapp1:
-    image: rishiapp:v1
-    build: .
-    container_name: rishic1
-    ports:
-      - "1025:80"
